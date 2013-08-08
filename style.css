@@ -1,0 +1,274 @@
+/* Site desenvolvido por :
+			Jonnatha Araújo
+			(jonnathaemai@gmail.com)
+								*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url(img/background.bmp);
+	background-size: 85px;
+	font-family: sans-serif;
+}
+
+/* Textos Cabeçalhos "H" */
+
+h2 {
+	color: #f2cc00;
+	font-family: "Geometr415 Blk BT", sans-serif;
+	font-size: 17pt;
+	font-weight: normal;
+	text-shadow: 0.05em 0.05em #000;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-style: italic;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 10pt;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #6ac9d6;
+}
+
+/* ---------------------- */
+
+#wrap {
+	margin: 0 auto !important;
+	width: 700px !important;
+	position: relative;
+}
+
+#header {
+	width: 100%;
+}
+
+#logo {
+	float: left;
+}
+
+#midias p{
+	float: left;
+	padding-top: 5px;
+	padding-right: 15px
+}
+#midias ul{margin: 0; padding: 0; list-style: none;}
+#midias ul li{float: left;}
+
+#midias {
+	float: right;
+	width: 250px;
+	color: #54a5a6;
+	font-size: 6pt;
+	margin-top: 40px;	
+}
+
+.titulo {
+	margin-right: 5px;
+}
+
+#menu {
+	float: right;
+	margin-top: 30px;
+	font-size: 10pt;
+}
+
+#content {
+	color: #6ac9d6;
+	margin: 20px 0px 0px 0px;
+}
+
+#footer {
+	width: 100%;
+	height: 60px;
+	background-color: #E1E1E1;
+	color: #5e5e5e;
+	font-size: 7pt;
+	margin-top: 150px;
+}
+
+#cegonha {
+	width: 135px;
+	height: 172px;
+	background: url(img/cegonha.png);
+	position: absolute;
+	top: -161px;
+	left: -125px
+}
+
+#footerleft {
+	float: left;
+	margin: 15px 0px 15px 0px !important;
+}
+
+#footerright {
+	float: right;
+	margin: 5px 0px 5px 0px !important;
+}
+
+/* Âncora Global */
+
+a {
+	text-decoration: none;
+}
+
+#midias a {
+	margin-right: 5px;
+}
+
+#footer a {
+	color: #5e5e5e;
+	text-decoration: none;
+	margin: 0 2px 0 2px;
+}
+
+/* Parágrafos */
+
+#midias table {
+	float: right;
+}
+
+#footerleft p {
+	margin: 5px 0 0 5px;
+}
+
+/* Menu */
+
+#menu ul {
+	list-style-type: none;
+	margin-top: 30px;
+}
+
+#menu ul li {
+	margin-right: 5px;
+	float: left;
+}
+
+#menu ul li a {
+	padding: 30px 20px 30px 20px;
+}
+
+#menu ul li a.menu1 {
+	background-color: #65ABB7;
+	color: #FFF7A5;
+}
+
+#menu ul li a.menu2 {
+	background-color: #FFF7A5;
+	color: #65ABB7;
+}
+
+#menu ul li a.menu3 {
+	background-color: #DFFAC3;
+	color: #65ABB7;
+}
+
+#menu ul li a.menu4 {
+	background-color: #EFDDEB;
+	color: #65ABB7;
+}
+
+#clear {
+	clear: both;
+}
+
+/*-------- CONTENT - Página: Index --------*/
+
+#top {
+	text-align: center;
+	padding: 0 0 10px 0;
+	border-bottom: 4px groove #CCC;
+}
+
+#post {
+	margin: 10px 0 10px 0;
+	border-bottom: 4px groove #CCC;
+	float: left;
+	padding-bottom: 25px;
+}
+
+#galeria {
+	margin: 0 0 0 10px;
+}
+
+#dicas, #alimentacao, #depoimentos {
+	width: 200px;
+	height: 120px;
+	float: left;
+	border-left: 10px solid #60a0ac;
+	padding: 15px 0 0 10px;
+	font-size: 7pt;
+	color: #5D5D5D;
+	margin-left: 12px;
+	line-height: 14px;
+}
+
+#fotos_alimentacao {
+	margin-top: 5px;
+}
+
+.subtitulo_index {
+	color: #6ac9d6;
+	font-style: italic;
+}
+
+
+/*-------- CONTENT - Página: Dicas --------*/
+
+#content_dicas {
+	width: 450px;
+	float: left;
+	font-size: 8pt;
+}
+
+#image_post {
+	float: right;
+	margin: 20px 20px 0px 0px;
+}
+
+/*-------- CONTENT - Página: Contato --------*/
+
+#formulario_contato {
+	font-size: 9pt;
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+}
+
+#formulario_contato input, #formulario_contato textarea {
+	margin-bottom: 10px;
+	border-radius: 5px;
+	width: 200px;
+}
+
+#formulario_contato input.enviar {
+	padding: 7px 15px 7px 15px;
+	color: #6ac9d6;
+	font-weight: bold;
+	font-size: 8pt;
+	margin-left: 60px;
+	width: 80px;
+	border: 2px solid #FFF;
+	background: linear-gradient(to bottom, #ffffff, #ececec);;
+}
+
+#endereço {
+	font-family: "Geometr415 Blk BT", sans-serif;
+	font-size: 9pt;
+	float: right;
+	margin: 60px 90px 0 0;
+}
+
+#endereço .telefone {
+	font-size: 13pt;
+}
+
+#endereço p {
+	margin-bottom: 10px;
+}
